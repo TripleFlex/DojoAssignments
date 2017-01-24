@@ -1,0 +1,23 @@
+C:\Users\TripleFlex\Desktop\DojoAssignments>dir /b /s
+C:\Users\TripleFlex\Desktop\DojoAssignments\iOS
+C:\Users\TripleFlex\Desktop\DojoAssignments\MEAN
+C:\Users\TripleFlex\Desktop\DojoAssignments\netCore
+C:\Users\TripleFlex\Desktop\DojoAssignments\Python
+C:\Users\TripleFlex\Desktop\DojoAssignments\Ruby
+C:\Users\TripleFlex\Desktop\DojoAssignments\WebFundamentals
+C:\Users\TripleFlex\Desktop\DojoAssignments\iOS\about.txt
+C:\Users\TripleFlex\Desktop\DojoAssignments\MEAN\about.txt
+C:\Users\TripleFlex\Desktop\DojoAssignments\netCore\about.txt
+C:\Users\TripleFlex\Desktop\DojoAssignments\Python\about.txt
+C:\Users\TripleFlex\Desktop\DojoAssignments\WebFundamentals\about.txt
+C:\Users\TripleFlex\Desktop\DojoAssignments\WebFundamentals\CSS
+C:\Users\TripleFlex\Desktop\DojoAssignments\WebFundamentals\Git
+C:\Users\TripleFlex\Desktop\DojoAssignments\WebFundamentals\HTML
+C:\Users\TripleFlex\Desktop\DojoAssignments\WebFundamentals\Javascript
+C:\Users\TripleFlex\Desktop\DojoAssignments\WebFundamentals\CSS\about.txt
+C:\Users\TripleFlex\Desktop\DojoAssignments\WebFundamentals\Git\about.txt
+C:\Users\TripleFlex\Desktop\DojoAssignments\WebFundamentals\HTML\about.txt
+C:\Users\TripleFlex\Desktop\DojoAssignments\WebFundamentals\HTML\indentation.html
+C:\Users\TripleFlex\Desktop\DojoAssignments\WebFundamentals\Javascript\about.txt
+
+C:\Users\TripleFlex\Desktop\DojoAssignments>
