@@ -1,0 +1,1 @@
+In this repo is a collection of all of the topics i will potentially cover during my time at the coding dojo.
