@@ -1,0 +1,114 @@
+
+TripleFlex@LAPTOP-G1POUH90 MINGW64 ~
+$ cd D:
+
+TripleFlex@LAPTOP-G1POUH90 MINGW64 /d
+$ cd codingdojo
+
+TripleFlex@LAPTOP-G1POUH90 MINGW64 /d/codingdojo
+$ cd dojoassignments
+
+TripleFlex@LAPTOP-G1POUH90 MINGW64 /d/codingdojo/dojoassignments (master)
+$
+
+TripleFlex@LAPTOP-G1POUH90 MINGW64 /d/codingdojo/dojoassignments (master)
+$ git push -u origin master
+fatal: unable to access 'https://github.com/TripleFlex/DojoAssignments.git/': error setting certificate verify locations:
+  CAfile: D:\Program Files\Git\mingw64\ssl\certs\ca-bundle.crt
+  CApath: none
+
+TripleFlex@LAPTOP-G1POUH90 MINGW64 /d/codingdojo/dojoassignments (master)
+$ git config --system http.sslcainfo "D:\codingdojo\Git\mingw64\ssl\certs\ca-bundle.crt"
+
+TripleFlex@LAPTOP-G1POUH90 MINGW64 /d/codingdojo/dojoassignments (master)
+$
+
+TripleFlex@LAPTOP-G1POUH90 MINGW64 /d/codingdojo/dojoassignments (master)
+$ git push -u origin master
+Counting objects: 11, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (11/11), 1.52 KiB | 0 bytes/s, done.
+Total 11 (delta 0), reused 0 (delta 0)
+Branch master set up to track remote branch master from origin.
+To https://github.com/TripleFlex/DojoAssignments.git
+ * [new branch]      master -> master
+
+TripleFlex@LAPTOP-G1POUH90 MINGW64 /d/codingdojo/dojoassignments (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        readme.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+TripleFlex@LAPTOP-G1POUH90 MINGW64 /d/codingdojo/dojoassignments (master)
+$ git add .
+
+TripleFlex@LAPTOP-G1POUH90 MINGW64 /d/codingdojo/dojoassignments (master)
+$ git commit -m "added and edited a readme.txt to explain what my repo is about."
+[master 18c5cce] added and edited a readme.txt to explain what my repo is about.
+ 1 file changed, 1 insertion(+)
+ create mode 100644 readme.txt
+
+TripleFlex@LAPTOP-G1POUH90 MINGW64 /d/codingdojo/dojoassignments (master)
+$ git push origin -U master
+error: unknown switch `U'
+usage: git push [<options>] [<repository> [<refspec>...]]
+
+    -v, --verbose         be more verbose
+    -q, --quiet           be more quiet
+    --repo <repository>   repository
+    --all                 push all refs
+    --mirror              mirror all refs
+    -d, --delete          delete refs
+    --tags                push tags (can't be used with --all or --mirror)
+    -n, --dry-run         dry run
+    --porcelain           machine-readable output
+    -f, --force           force updates
+    --force-with-lease[=<refname>:<expect>]
+                          require old value of ref to be at this value
+    --recurse-submodules[=<check|on-demand|no>]
+                          control recursive pushing of submodules
+    --thin                use thin pack
+    --receive-pack <receive-pack>
+                          receive pack program
+    --exec <receive-pack>
+                          receive pack program
+    -u, --set-upstream    set upstream for git pull/status
+    --progress            force progress reporting
+    --prune               prune locally removed refs
+    --no-verify           bypass pre-push hook
+    --follow-tags         push missing but relevant tags
+    --signed[=<yes|no|if-asked>]
+                          GPG sign the push
+    --atomic              request atomic transaction on remote side
+    -o, --push-option <server-specific>
+                          option to transmit
+    -4, --ipv4            use IPv4 addresses only
+    -6, --ipv6            use IPv6 addresses only
+
+
+TripleFlex@LAPTOP-G1POUH90 MINGW64 /d/codingdojo/dojoassignments (master)
+$ git push -u origin master
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 389 bytes | 0 bytes/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local objects.
+Branch master set up to track remote branch master from origin.
+To https://github.com/TripleFlex/DojoAssignments.git
+   501230c..18c5cce  master -> master
+
+TripleFlex@LAPTOP-G1POUH90 MINGW64 /d/codingdojo/dojoassignments (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working tree clean
+
+TripleFlex@LAPTOP-G1POUH90 MINGW64 /d/codingdojo/dojoassignments (master)
+$

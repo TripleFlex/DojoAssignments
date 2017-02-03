@@ -1,0 +1,166 @@
+#container{
+  background-color: rgb(36,80,118);
+  padding:10px;
+  max-width:970px;
+  height: auto;
+}
+
+
+.textsize{
+  color:white;
+  font-size:10pt;
+  display:inline-block;
+  margin-left:500px;
+  text-align:top;
+
+
+}
+#img{
+  display:inline-block;
+  width:290px;
+  height:41;
+  vertical-align:top;
+
+
+}
+.boldblack{
+  font-weight:900;
+  color:black;
+  font-size:15px;
+}
+.searchbar {
+  background-color:rgb(68,68,68);
+  width:175px;
+  height:40px;
+  display:inline-block;
+  border-radius:10px;
+  border-bottom-style:ridge;
+  border-right-style:ridge;
+  border-color:rgb(0, 0, 0);
+  border-width:2px;
+  margin-left:775px;
+  vertical-align:top;
+  /*outline:2px dotted red;*/
+  margin-top:-50px;
+}
+#searchbox{
+  text-align:center;
+  width:100px;
+  margin-top:10px;
+  margin-left:10px;
+
+}
+#go{
+  width:30px;
+  height:25px;
+  background-color:rgb(36,80,118);
+  margin-left:135px;
+  vertical-align:top;
+  margin-top:-25px;
+  border-radius:5px;
+  color:white;
+  text-align:left
+
+}
+#navbar{
+  width:600px;
+  height:40px;
+  background:linear-gradient(rgb(57, 120, 173),rgb(167, 186, 232),rgb(57, 120, 173));
+  border-radius: 10px;
+  margin-left:200px;
+  margin-top: -30px;
+  border-bottom-style:ridge;
+  border-right-style:ridge;
+  border-color:black;
+  border-width:2px;
+  margin-bottom:10px;
+
+}
+#navbar li{
+  display:inline-block;
+  margin:10px;
+  text-decoration:none;
+
+}
+#p{
+  width:600px;
+  height:auto;
+  font-size:11pt;
+  color:white;
+  display:inline-block;
+  vertical-align: top;
+  text-align:center;
+  margin-left:60px;
+
+
+}
+#listleft{
+  display:inline-block;
+  text-align:center;
+  vertical-align: top;
+}
+#listleft li{
+  margin-bottom: 12px;
+  list-style:square;
+  margin-left:30px;
+  color:yellow;
+
+
+}
+#quoteul{
+  text-align: center;
+  color:yellow;
+  list-style:none;
+  display:inline-block;
+  font-size:25px;
+  font-style:italic;
+}
+.quote{
+
+  margin-left:120px;
+  vertical-align: top;
+
+}
+.subcontent{
+  display:inline-block;
+  text-align:center;
+  /*border-top: 2px solid black;*/
+  margin-left:120px;
+  width:300px;
+}
+.ul li{
+  list-style:square;
+}
+#bar{
+  display:block;
+  vertical-align: top;
+  margin-left:50px;
+}
+#maincontent2{
+  display: inline-block;
+  tet-align:center;
+}
+#footer{
+  height:100px;
+  width:970px;
+  background-color:rgb(36,80,118);
+  text-align:center;
+  color:white;
+  text-decoration:none;
+}
+#footer li{
+  display:inline-block;
+  text-align: center;
+  margin:20px;
+  color:white;
+  text-decoration:none;
+}
+#footer h6{
+  color:white;
+
+}
+#footer a{
+  text-decoration:none;
+  color:white;
+  font-size:20px;
+}

@@ -1,0 +1,46 @@
+#container{
+  background-color:rgb(151, 171, 221);
+  width:600px;
+  height:auto;
+}
+#header{
+
+}
+#mainform{
+  width:600px;
+  height:auto;
+
+}
+table{
+  border-style:solid;
+  border-width:medium;
+  width:600px;
+  height:60px;
+  padding:10px;
+}
+th{
+  vertical-align: top;
+  font-size:15pt;
+}
+#mainform{
+
+}
+#mainform h1{
+  border-bottom:medium black solid;
+}
+ul{
+text-align: right;
+list-style: none;
+margin-right:200px;
+}
+li{
+  padding-bottom: 5px;
+  list-style: none;
+}
+button{
+  padding:5px;
+  margin-left:300px;
+}
+td{
+  text-align: center;
+}
