@@ -1,0 +1,12 @@
+/**{ outline: red dashed 2px}*/
+
+.container{
+margin-left:-100px;
+}
+div{
+  /*outline: green dashed 2px;*/
+}
+.pokemon img{
+  height:170px;
+  width:170px;
+}
